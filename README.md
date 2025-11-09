@@ -32,7 +32,7 @@ This ensures that every feature contributes equally when measuring Euclidean dis
 
 ## **3. How the Algorithms Work**
 
-### 🔹 **K-Means**
+###  **K-Means**
 
 1. Randomly selects *k* points as **centroids** (k = 3 for Wine dataset).  
 2. Assigns each sample to the nearest centroid using **Euclidean distance**.  
@@ -43,7 +43,7 @@ K-Means creates circular, mean-centered clusters and is efficient on continuous 
 
 ---
 
-### 🔸 **K-Medoids**
+###  **K-Medoids**
 
 1. Chooses *k* actual data points as **medoids** (representative examples).  
 2. Assigns other samples to the nearest medoid.  
@@ -126,7 +126,7 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., et al. (2011). *Scikit-learn: Machin
 
 ---
 
-✅ **In Summary:**  
+ **In Summary:**  
 Both **K-Means** and **K-Medoids** effectively uncovered the hidden structure of the Wine dataset.  
 
 - **K-Means** is faster and ideal for large, clean numeric data.  
