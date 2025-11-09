@@ -24,9 +24,7 @@ The lab also evaluates how well these discovered clusters match the actual wine 
 
 Because clustering is distance-based, all features were **standardized** using *z-score normalization*:
 
-\[
-Z = \frac{X - \mu}{\sigma}
-\]
+Z = (X − μ) / σ
 
 This ensures that every feature contributes equally when measuring Euclidean distances between wines.
 
@@ -85,9 +83,7 @@ These metrics provide both *unsupervised quality* (Silhouette) and *supervised a
 - **Feature Standardization:** Each feature was scaled to have zero mean and unit variance so that distance calculations aren’t dominated by large-magnitude attributes (e.g., proline).  
 - **Distance Computation:** Both algorithms rely on the Euclidean distance formula:  
 
-  \[
-  d(p, q) = \sqrt{\sum (p_i - q_i)^2}
-  \]  
+d(p, q) = √Σ(pᵢ − qᵢ)²
 
   This measures how far apart two wine samples are in the 13-dimensional feature space.  
 
